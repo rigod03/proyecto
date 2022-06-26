@@ -1,0 +1,50 @@
+h1{
+    color: white;
+    text-shadow: 1px 2px 2px black , 0 0 25px rgb(143, 84, 210), 0 0 5px rgb(143, 84, 210);
+    text-align: center;
+
+}
+div.galeria{
+    margin: 10px 10px ;
+    box-shadow: 0  4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, |19);
+    float:left;
+    width: 350px;
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+div.galeria:hover{
+    border: 5px solid rgb(247, 158, 233);
+    transform: rotate(-3deg);
+
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 20px;
+}
+body{
+    background-color:cornsilk ;
+}
+
+.menu a:hover{
+    background-color: rgb(0, 255, 76);
+    color:black;
+    transition: ease-in .4s;
+    padding: 20px;
+
+}
+.main {
+    margin:  0 auto;
+    width: 80vw;
+    height: 80vh;
+    display:grid;
+    align-items: center;
+
+}
+.conten{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/AM1.png');
+}
